@@ -1734,19 +1734,19 @@ require_once('includes/header.php');
                 <div class="row">
                     <div class="col-xl-4 col-md-5 wow fadeInUp" data-wow-delay="100ms">
                         <div class="main-footer-two__about">
-                            <a href="index.html" class="main-footer-two__logo">
+                           <!-- <a href="index.html" class="main-footer-two__logo">
                                 <img src="assets/images/logo-light.png" alt="eduact" width="159" height="40">
-                            </a><!-- /.footer-logo -->
+                            </a> /.footer-logo -->
                             <ul class="main-footer-two__info-list">
-                                <li><span class="icon-Location"></span>6391 Elgin St. Celina, Delaware 10299</li>
-                                <li><span class="icon-Telephone"></span><a href="tel:3035550105">(303) 555-0105</a></li>
-                                <li><span class="icon-Email"></span><a href="mailto:michael.mitc@example.com">michael.mitc@example.com</a></li>
+                                <li><span class="icon-Location"></span>Site 32, 4th "A" Cross Road, Bhuvaneshwari Nagar, Dasarahalli Main Road, Hebbal Post, Bangalore - 560024, Karnataka, India</li>
+                                <li><span class="icon-Telephone"></span><a href="tel:08043024523">080 43024523</a></li>
+                                <li><span class="icon-Email"></span><a href="mailto:inquiries@ittstar.com">inquiries@ittstar.com</a></li>
                             </ul>
                             <div class="main-footer-two__social">
-                                <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                                <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-                                <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
-                                <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+                                <a href="https://www.facebook.com/ITTStarConsulting/"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://www.linkedin.com/company/29019490/admin/feed/posts/"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="https://twitter.com/Team_ITTStar"><i class="fab fa-twitter"></i></a>
+                                <a href="https://www.instagram.com/ittstarconsulting/"><i class="fab fa-instagram"></i></a>
                             </div><!-- /.footer-social -->
                         </div><!-- footer-top -->
                     </div>

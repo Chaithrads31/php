@@ -117,7 +117,7 @@
                                     </li>
                                 </ul>
                             </li>-->
-                            <li class="scrollToLink"><a href="#home">Home <?php echo $abc; ?></a></li>
+                            <li class="scrollToLink"><a href="#home">Home </a></li>
                             <li class="scrollToLink"><a href="#about">About</a></li>
                             <li class="scrollToLink"><a href="#services">Services</a></li>
                             <li class="scrollToLink"><a href="#course">Course</a></li>
