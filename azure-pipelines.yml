@@ -24,3 +24,9 @@ steps:
 
 - script: composer install --no-interaction --prefer-dist
   displayName: 'composer install'
+
+steps:
+- script: |
+    cd OJT-Training
+    composer install --no-interaction --prefer-dist
+  displayName: 'Composer Install'
