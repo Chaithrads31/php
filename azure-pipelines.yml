@@ -3,8 +3,7 @@ pool:
 
 variables:
   phpVersion: 7.2
-
-steps:
+  
 - script: |
     sudo update-alternatives --set php /usr/bin/php$(phpVersion)
     sudo update-alternatives --set phar /usr/bin/phar$(phpVersion)
@@ -16,18 +15,9 @@ steps:
   displayName: 'Use PHP version $(phpVersion) and check Composer version'
 
 - script: |
-    cd OJT-Training  # Change to the directory where your code is
-    sudo update-alternatives --set php /usr/bin/php$(phpVersion)
-    sudo update-alternatives --set phar /usr/bin/phar$(phpVersion)
-    sudo update-alternatives --set phpdbg /usr/bin/phpdbg$(phpVersion)
-    sudo update-alternatives --set php-cgi /usr/bin/php-cgi$(phpVersion)
-    sudo update-alternatives --set phar.phar /usr/bin/phar.phar$(phpVersion)
-    php -version
-    composer --version
-  displayName: 'Use PHP version $(phpVersion) and check Composer version in OJT-Training'
+    ls -la  # List the contents of the current directory for debugging
+    pwd     # Print the current working directory for debugging
 
-- script: |
     cd OJT-Training  # Change to the directory where your code is
     composer install --no-interaction --prefer-dist
   displayName: 'composer install in OJT-Training'
-
